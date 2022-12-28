@@ -1,0 +1,102 @@
+.cm-grid-color{
+    background-color: #43ACA6 !important;
+}
+.dropdown {
+    position: relative;
+    height: 53px;
+    width: 40px;
+    top: -24px;
+    display: flex;
+    left: -5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown ul {
+    position: absolute;
+    background: var(--dropdown-bg);
+    height: 110px;
+    width: 120px;
+    right: 0;
+    top: 20px;
+    pointer-events: none;
+    opacity: 0;
+    transform: translatey(10px);
+    transition: all 0.4s ease;
+  }
+  .dropdown ul li a {
+    text-decoration: none;
+    color: var(--theme-color);
+    font-size: 12px;
+  }
+  
+  .dropdown.is-active ul {
+    opacity: 1;
+    pointer-events: all;
+    transform: translatey(25px);
+  }
+  .dropdown.is-active ul li:hover {
+    background-color: var(--dropdown-hover);
+  }
+  .button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 187px;
+    margin-left: auto;
+  }
+  .menu {
+    width: 5px;
+    height: 5px;
+    background-color: var(--button-inactive);
+    border-radius: 50%;
+    box-shadow: 7px 0 0 0 var(--button-inactive), 14px 0 0 0 var(--button-inactive);
+    margin: 0 12px;
+  }
+  .status {
+    margin-left: auto;
+    width: 140px;
+    font-size: 15px;
+    position: relative;
+  }
+  @media screen and (max-width: 700px) {
+    .status {
+      display: none;
+    }
+  }
+  .status-circle {
+    width: 6px;
+    height: 6px;
+    background-color: #396df0;
+    position: absolute;
+    border-radius: 50%;
+    top: 4px;
+    left: -20px;
+  }
+  .status-circle.green {
+    background-color: #3bf083;
+  }
+  .status-button {
+    font-size: 15px;
+    margin-top: 0;
+    padding: 6px 24px;
+  }
+  @media screen and (max-width: 390px) {
+    .status-button {
+      padding: 6px 14px;
+    }
+  }
+  .status-button.open {
+    background: none;
+    color: var(--button-inactive);
+    border: 1px solid var(--button-inactive);
+  }
+  .status-button:not(.open):hover {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .content-button:not(.open):hover {
+    background: #1e59f1;
+  }
+  

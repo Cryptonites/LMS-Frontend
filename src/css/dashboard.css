@@ -1,0 +1,315 @@
+.content-section {
+  background-color: #e3ebf2;
+  width: 58vw;
+  height: 90vh;
+  margin-left: 20vw;
+  margin-top: -90vh;
+  overflow: scroll;
+  
+}
+.content-section::-webkit-scrollbar-thumb {
+  background-color: #506cff;
+}
+.div-countdown {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0px 1px 10px 0px #dbd7d7;
+  width: 52vw;
+  height: 35vh;
+  background-color: #1e63f7;
+  padding: 7px 20px 0 10px;
+  font-family: "Inter";
+}
+.countdown-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 4px;
+}
+.div-title-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.plan-btn {
+  margin-top: 0.4rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 5px;
+  padding-top: 7px;
+  width: 8.5rem;
+  height: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  background: rgba(131, 145, 226, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+}
+.plan-btn:hover{
+  background: linear-gradient(to right,#085af8 ,rgb(17, 46, 209));
+ 
+}
+.plan-btn:active , .see-more-btn:active, .join-btn:active, .ds-navigate:active, .notification-navigate:active {
+  transform: scale(0.95);
+}
+.countdown-section-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.countdown-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.timer-icon {
+  width: 10rem;
+  height: 12rem;
+  margin-top: -1.2rem;
+  margin-right: 0rem;
+}
+.div-days,
+.div-minutes,
+.div-hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.days-display,
+.minutes-display,
+.hours-display {
+  width: 8.5rem;
+  height: 7.9rem;
+  background: rgba(132, 149, 245, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+  margin-left: 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 5.9rem;
+  font-weight: 500;
+  color: #cadeee;
+}
+.days-title,
+.minutes-title,
+.hours-title {
+  margin-left: 1.2rem;
+  margin-top: 0.3rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #E3EBF2;
+}
+.line-break-countdown {
+  background-color: #506cff;
+  margin-top: 1rem !important;
+  height: 0.2rem;
+  width: 55vw;
+  margin-left: 12px !important;
+}
+.ds-workshop-section-1,
+.ds-workshop-section-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  margin-right: 2.5rem;
+}
+.div-ds-1,
+.div-ds-2 {
+  width: 25vw;
+  height: 30vh;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 0.6rem;
+  box-shadow: 0px 1px 10px 0px #dbd7d7;
+}
+.ds-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #25316d;
+  margin-left: 1.3rem;
+}
+.div-title {
+  max-width: 18vw;
+  font-weight: 700;
+}
+.ds-navigate,
+.notification-navigate {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #085af8;
+  cursor: pointer;
+}
+.title-section {
+  display: flex;
+  justify-content: space-between;
+}
+.title-img {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+}
+.line-break-ds-workshop {
+  background-color: #506cff;
+  margin-top: 0.4rem !important;
+  margin-left: 5px !important;
+}
+.div-workshop-details {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+.join-btn {
+  margin-top: 1.2rem;
+  margin-left: 4rem;
+  font-size: 1rem;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #085af8;
+  border-color: #085af8;
+  padding: 5px;
+  padding-top: 3px;
+  width: 11rem;
+  height: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+.div-cm-notification-forum {
+  display: flex;
+  justify-content: space-between;
+}
+.div-cm-forum {
+  display: flex;
+  flex-direction: column;
+}
+.notification-section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 2.5rem;
+}
+.notification-section-2 {
+  width: 25vw;
+  height: 65vh;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 10px;
+  margin-right: 2.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0px 1px 10px 0px #dbd7d7;
+}
+.notification-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #25316d;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.course-material-section-2 {
+  width: 25vw;
+  height: 30vh;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 1.5rem;
+  box-shadow: 0px 1px 10px 0px #dbd7d7;
+}
+.course-material-section-1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #25316d;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+.div-cm-image {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -7.5rem;
+  margin-left: 6.8rem;
+  width: 16vw;
+  height: 16vh;
+}
+.cm-image {
+  border-radius: 15px;
+}
+.description-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.7rem;
+}
+.see-more-btn {
+  margin-top: 2.5rem;
+  margin-left: 0rem;
+  font-size: 1rem;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #085af8;
+  border-color: #085af8;
+  padding: 5px;
+  padding-top: 3px;
+  width: 11rem;
+  height: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+.div-forum {
+  width: 25vw;
+  height: 30vh;
+  background-color: #ffffff;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 1.9rem;
+  margin-left: 1.5rem;
+  box-shadow: 0px 1px 10px 0px #dbd7d7;
+}
+.forum-image{
+  width: 25vw;
+  height: 23vh;
+  border-radius: 15px;
+}
+.forum-section-2{
+  width: 25vw;
+  height: 7vh;
+  background-color: #085af8;
+  color: #dfecff;
+  border-radius: 0 0px 20px 20px;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+ 
+}
+
+/*Notification-Section*/
+.div-notification {
+  width: 23.5vw;
+  height: 19vh;
+  margin-bottom: 0.9rem;
+  padding: 7px;
+  border-radius: 20px;
+  background-color: #E3EBF2;
+}
+.notifier-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.notification-title-section{
+  display: flex;
+}
+.div-notifier-name{
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+  color: #292E4D;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.div-notification-body-section{
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding-left: 2px;
+}
