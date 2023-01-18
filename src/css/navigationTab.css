@@ -1,0 +1,118 @@
+.container-lms {
+  width: 20vw;
+  height: 102vh;
+  overflow: scroll;
+  background: #042af1;
+  margin: 0;
+  margin-top: -12vh;
+  padding: 0;
+  font-family: "Inter";
+  
+}
+.container-lms::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+}
+.logo-img {
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  margin-top: 15px;
+}
+.title {
+  color: #ffffff !important;
+}
+.subtitle {
+  color: #ffffff !important;
+  text-decoration-line: overline !important;
+}
+
+hr {
+  margin: 0 5% 0 5% !important;
+}
+.title-menu {
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 5 00;
+  font-size: 1.3rem;
+}
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #f8ede3;
+  width: 15vw;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 10%;
+  cursor: pointer;
+}
+.nav-section:hover {
+  color: #f8f9ff;
+  margin-left: -1%;
+}
+.nav-hover:hover {
+  border-radius: 18px;
+  width: 13rem;
+  margin-left: 10%;
+  background: rgba(120, 140, 250, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+}
+
+.icon {
+  width: 5rem;
+}
+.tab {
+  width: 10rem;
+  font-weight: 500;
+  padding-left: 3%;
+  margin-right: -10px;
+}
+.active-tab {
+  border-radius: 18px;
+  color: #f8f9ff;
+  background: rgba(120, 140, 250, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+}
+.active-tab:hover {
+  margin-left: 10%;
+}
+.navigate-footer {
+  margin-top: 25vh;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.copyright {
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.logout {
+  display: flex;
+  justify-content: center;
+  color: #25316d;
+  width: 15vw;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  cursor: pointer;
+  background-color: #9fc9f3;
+  font-weight: 600;
+  border-radius: 25px;
+}
+.logout-name {
+  margin-left: 5px;
+}
