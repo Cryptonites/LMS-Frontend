@@ -1,0 +1,125 @@
+.dashboard-section {
+  background-color: #f0f0f0;
+  width: 80vw;
+  height: 90vh;
+  margin-left: 20vw;
+  margin-top: -90vh;
+
+  overflow: scroll;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+textarea::-webkit-input-placeholder {
+  padding-top: 20px;
+}
+
+textarea::-moz-placeholder {
+  padding-top: 20px;
+}
+
+textarea::-ms-input-placeholder {
+  padding-top: 20px;
+}
+.div-user-state-info {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.div-user-state {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 25px;
+  background-color: rgb(255, 254, 254);
+  box-shadow: 0px 1px 10px 0px #bebcbc;
+  cursor: pointer;
+}
+.div-user-state:active {
+  transform: scale(0.97);
+}
+.div-state-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+.div-state-img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+.div-state-number {
+  background-color: #2146c7;
+  margin-top: 1rem;
+  height: 12vh;
+  border-radius: 0 0 25px 25px;
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 600;
+  padding-top: 0.4rem;
+  color: #aebdca;
+}
+.div-change-countdown-section {
+  margin: 1rem;
+  background-color: #fff;
+  height: 40vh;
+  padding: 10px;
+  width: 40vw;
+  border-radius: 15px;
+  box-shadow: 0px 1px 10px 0px #bebcbc;
+}
+.div-change-countdown-title {
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgb(49, 48, 48);
+}
+.div-event-name {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.countdown-input {
+  width: 7vw;
+  box-shadow: 0px 1px 10px 0px #d3d1d1;
+}
+.div-countdown-date-input {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 4rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  
+}
+.div-event-name {
+  text-align: center;
+}
+.countdown-event-input {
+  width: 35vw;
+  margin-left: 1rem;
+  box-shadow: 0px 1px 10px 0px #d3d1d1;
+}
+.div-btn-update-countdown {
+  margin-top: 1rem;
+  margin: auto;
+  font-size: 1rem;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 5px;
+  padding-top: 7px;
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  background: #506cff;
+  border-radius: 16px;
+  box-shadow: 0px 1px 10px 0px #7a7a7a;
+}
+.div-btn-update-countdown:active {
+  transform: scale(0.97);
+  
+}
